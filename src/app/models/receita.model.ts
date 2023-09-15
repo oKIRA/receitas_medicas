@@ -5,9 +5,9 @@ export class Receita {
     cpf: string;
     dataNascimento: string;
   };
-  medicamentos: {
-    nome: string;
-    categoria: string;
-    codigoAnvisa: string;
-  }[] = [];
+  medicamentos?: {
+    nome?: string;
+    categoria?: string;
+    codigoAnvisa?: string;
+  }[]
 }

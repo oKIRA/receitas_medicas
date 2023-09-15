@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ReceitaController } from './controllers/receita.controller';
+import { ReceitaMedicaComponent } from './receita-medica/receita-medica.component';
 
 
 const routes: Routes = [
-  { path: 'paciente', component: ReceitaController },
+  { path: 'paciente', component: ReceitaMedicaComponent },
   { path: '', redirectTo: '/paciente', pathMatch: 'full' },
 ];
 
